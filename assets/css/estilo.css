@@ -1,8 +1,78 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 #imgLuana{
     width: 200px;
     height: 200px;
+}
+
+
+/*Robinson*/
+#TelaDeInicio{
+    border: solid red 2px;
+    display: flex;
+}
+
+#Robinson-esquerda{
+    border: solid red 2px;
+    
+    
+}
+#Robinson-direita{
+    border: solid red 2px;
+}
+#MenuDeOpcoes{
+    display: grid;
+}
+.Secao{
+    padding: 20%;
+    display: grid;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+.Opcao{
+    padding: 20%;
+    display: grid;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked + .Secao {
+background-color: #d19c97;}
+input[type="radio"]:checked ~ .Opcao {
+    display: block;
+}
+.Opcao {
+    display: none;
+}
+
+/*Letícia*/
+.divPai{
+    border: solid green 2px;
+}
+
+/*Luana*/
+.diviZao2{
+    border: solid black 2px;
+}
+
+.colStayUpdated{
+    border: solid black 2px;
+}
+
+.diviZao3{
+    border: solid black 2px;
+}
+
+/*Bryan*/
+footer{
+    border: solid blue 2px;
 }
