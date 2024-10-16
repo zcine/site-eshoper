@@ -17,13 +17,13 @@ header{
 
 /*Robinson*/
 #TelaDeInicio{
-    border: solid red 2px;
+    width: 100%;
     display: flex;
+    border: solid red 2px;
 }
 
 #Robinson-esquerda{
-    border: solid red 2px;
-    width: 25%;
+    width: 30%;
 }
 #Robinson-direita{
     border: solid red 2px;
@@ -32,12 +32,17 @@ header{
     display: flex;
 }
 .TituloDaLogo{
-    padding: 5%;
+    padding: 2%;
+    font-size: 32px;
 }
 .IconeDaLogo{
-    padding: 5%;
+    color: #d19c97;
+    padding: 2%;
+    font-size: 32px;
     padding-left: 10%;
-    border: solid ;
+    padding-right: 10%;
+    margin-left: 5%;
+    border:  #edf1ff solid ;
 }
 #MenuDeOpcoes{
     display: grid;
@@ -49,6 +54,7 @@ header{
     font-style: normal;
     color: black;
     text-decoration: none;
+    border: #edf1ff solid 1px;
 }
 .Opcao{
     padding: 10%;
@@ -62,12 +68,11 @@ input[type="radio"] {
     display: none;
 }
 input[type="radio"]:checked + .Secao {
-background-color: #d19c97;}
+    background-color: #d19c97;
+}
 input[type="radio"]:checked ~ .Opcao {
     display: block;
-}
-.Opcao {
-    display: none;
+    
 }
 
 /*Letícia*/
