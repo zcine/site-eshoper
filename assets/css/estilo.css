@@ -75,10 +75,10 @@ header {
 }
 
 #Robinson-baixo {
+    text-align: center;
     justify-content: space-between;
     display: flex;
     margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 /*Parte de cima da pagina inicial*/
@@ -93,7 +93,6 @@ header {
 
 /*.................................................*/
 /*Parte esquerda da Tela inicial*/
-
 #MenuDeOpcoes {
     display: grid;
 }
@@ -171,9 +170,42 @@ input[type="radio"]:checked+.Secao {
 /*Parte direita da Tela inicial*/
 
 /*Barra de Pesquisa (não sei fazer)*/
-.Robinson-pesquisa {
-    border: #edf1ff;
+.Robinson-pesquisa{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
+.search-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.barra1 {
+    width: 60%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.botao1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: none; 
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+}
+
+.botao1:hover {
+    background: rgb(61, 61, 61);
+    color: #edf1ff;
+}
+
 
 /*Barra de navegação*/
 #MenuDeBusca {
@@ -263,20 +295,21 @@ input[type="radio"]:checked+.Secao {
     display: flex;
     cursor: pointer;
     border: #dbe0f0 solid 1px;
+    align-items: center;
     font-weight: 600;
-    padding: 2% 5%;
+    padding: 2% 10%;
     text-align: justify;
-    width: 15%;
+    width: 10%;
 }
+
 .CartoesDeBeneficio img {
-    height: 40px;
-    padding-right: 10%;
+    height: 50px;
+    padding-right: 15%;
+    
 }
+
 /*Letícia*/
 /*.................................................*/
-.divPai {
-    margin-top: 100%;
-}
 .plinha{
     display: flex;
     flex-wrap: wrap;
