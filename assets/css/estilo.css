@@ -274,6 +274,13 @@ input[type="radio"]:checked+.Secao {
     width: 100%;
 }
 
+#pLuana{
+    text-align: center;
+    font-size: 16px 19.2px;
+    
+
+}
+
 .diviZao2 {
     border: solid black 2px;
 }
