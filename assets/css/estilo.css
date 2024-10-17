@@ -342,7 +342,6 @@ input[type="radio"]:checked+.Secao {
 
 /*Bryan*/
 footer {
-    border: solid blue 2px;
     display: flex;
     background-color: #dbe0f0;
 }
@@ -399,16 +398,18 @@ footer {
 }
 
 #Bryan-bt{
-    width: 68%;
+    width: 71%;
     margin-top: 4%;
     background-color: #d19c97;
 }
 
 #Bryan-nome{
+    width: 68%;
     margin-bottom: 4%;
 }
 
 #Bryan-email{
+    width: 68%;
     align-content: center;
 }
 
