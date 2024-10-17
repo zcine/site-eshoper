@@ -68,9 +68,6 @@ header {
 }
 
 /*Tela inicial*/
-#TelaDeInicio {
-    height: 600px;
-}
 
 #Robinson-cima {
     width: 100%;
@@ -78,7 +75,10 @@ header {
 }
 
 #Robinson-baixo {
+    text-align: center;
     border: solid red 2px;
+    padding-bottom: 30%;
+    margin-bottom: 30%;
 }
 
 /*Parte de cima da pagina inicial*/
