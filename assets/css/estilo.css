@@ -276,10 +276,23 @@ input[type="radio"]:checked+.Secao {
 
 #pLuana{
     text-align: center;
-    font-size: 16px 19.2px;
+    font-size: 16px 19.2%;
+    padding: -100px;
+}
+
+.pLuana{
+    text-align: center;
+    font-size: 16px 19.2%;
+    padding: -100px;
     
+}
+
+.tituloLuana{
+    text-align: center;
+    font-size: 24px 28.8px;
 
 }
+
 
 .diviZao2 {
     border: solid black 2px;
@@ -291,6 +304,11 @@ input[type="radio"]:checked+.Secao {
 
 .diviZao3 {
     border: solid black 2px;
+    text-align: center;
+}
+
+.btn{
+    
 }
 
 /*Bryan*/
