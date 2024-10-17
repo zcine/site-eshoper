@@ -243,7 +243,7 @@ input[type="radio"]:checked+.Secao {
 
 #TituloDaGaleria img {
     height: 50px;
-    opacity: 50%;
+    opacity: 90%;
 }
 
 #TituloDaGaleria img:hover {
@@ -262,9 +262,6 @@ input[type="radio"]:checked+.Secao {
     border: solid green 5px;
 }
 
-.imgLet {
-    width: 100px;
-}
 
 /*Luana*/
 /*.................................................*/
