@@ -261,27 +261,41 @@ input[type="radio"]:checked+.Secao {
 /*Parte de baixo da pagina inicial*/
 .CartoesDeBeneficio {
     display: flex;
-    cursor: pointer;;
+    cursor: pointer;
     border: #dbe0f0 solid 1px;
     font-weight: 600;
     padding: 2% 5%;
-    align-items: center;
     text-align: justify;
-    width: 10%;
+    width: 15%;
 }
-
-.CartoesDeBeneficio img{
-    padding-right: 15%;
-    height: 40px
+.CartoesDeBeneficio img {
+    height: 40px;
+    padding-right: 10%;
 }
 /*Letícia*/
 /*.................................................*/
 .divPai {
-    border: solid green 5px;
+    margin-top: 100%;
+}
+.plinha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.slinha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#prod{
+    text-align: right;
+    color: rgb(104, 99, 99);
 }
 .imgLet {
-    width: 100%;
+      width: 100%;
 }
+
+
 
 
 /*Luana*/
