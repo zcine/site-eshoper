@@ -209,7 +209,7 @@ input[type="radio"]:checked+.Secao {
 
 /*Imagem de apresentação*/
 #ImagemDeApresentacao {
-    
+    background-image: url("/assets/img/carousel-1.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
