@@ -264,15 +264,14 @@ input[type="radio"]:checked+.Secao {
     margin-top: 100px;
 }
 .imgLet {
-    height: 200px;
+    width: 100%;
 }
 
 
 /*Luana*/
 /*.................................................*/
 .imgLuana {
-    width: 200px;
-    height: 200px;
+    width: 100%;
 }
 
 .diviZao2 {
