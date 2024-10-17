@@ -297,27 +297,28 @@ input[type="radio"]:checked+.Secao {
 footer {
     border: solid blue 2px;
     display: flex;
+    background-color: #dbe0f0;
 }
 
 #Bryan-Direita{
-    border: solid rgb(0, 0, 0) 2px;
+   
     width: 50%;
 }
 
 #Bryan-links1{
     padding-top: 10%;
-    border: solid #d19c97 2px;
+    padding-left: 5%;
     width: 25%;
 }
 
 #Bryan-links2{
     padding-top: 10%;
-    border: solid magenta 2px;
+    padding-left: 5%;
     width: 25%;
 }
 #Bryan-paragrafo{
     color: rgb(60, 58, 58);
-    padding: 2%;
+    padding-left: 14%;
 }
 
 .Bryan-icons{
@@ -327,7 +328,7 @@ footer {
 }
 
 .Bryan-botao{
-    border: solid 2px;
+    
     font-size: 100%;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
@@ -338,10 +339,11 @@ footer {
 #Bryan-contato{
    
     color: rgb(92, 92, 92);
-   
+    padding-left: 9%;
     display: grid;
     margin-left: 4%;
     margin-right: 10%;
     align-items: center;
 }
+
 
