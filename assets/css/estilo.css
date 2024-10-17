@@ -298,11 +298,13 @@ footer {
 }
 
 #Bryan-links1{
+    padding-top: 10%;
     border: solid #d19c97 2px;
     width: 25%;
 }
 
 #Bryan-links2{
+    padding-top: 10%;
     border: solid magenta 2px;
     width: 25%;
 }
@@ -313,11 +315,26 @@ footer {
 
 .Bryan-icons{
     padding: 5px;
-    width: 20px;
+    width: 15%;
+    height: 15%;
 }
 
 .Bryan-botao{
+    border: solid 2px;
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
+    display: flex;
     color: rgb(60, 58, 58);
+}
+
+#Bryan-contato{
+   
+    color: rgb(92, 92, 92);
+   
+    display: grid;
+    margin-left: 4%;
+    margin-right: 10%;
+    align-items: center;
 }
 
