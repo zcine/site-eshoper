@@ -261,13 +261,16 @@ input[type="radio"]:checked+.Secao {
 /*.................................................*/
 .divPai {
     border: solid green 5px;
-    margin-top: 500px;
+    margin-top: 100px;
+}
+.imgLet {
+    height: 200px;
 }
 
 
 /*Luana*/
 /*.................................................*/
-#imgLuana {
+.imgLuana {
     width: 200px;
     height: 200px;
 }
