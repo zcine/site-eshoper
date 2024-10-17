@@ -243,7 +243,7 @@ input[type="radio"]:checked+.Secao {
 
 #TituloDaGaleria img {
     height: 50px;
-    opacity: 90%;
+    opacity: 50%;
 }
 
 #TituloDaGaleria img:hover {
