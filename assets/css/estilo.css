@@ -252,6 +252,8 @@ input[type="radio"]:checked+.Secao {
 
 #GaleriaDeApresentacao button {
     display: block;
+    border: none;
+    padding: 5% 10%;
     margin: 0 auto;
     border-radius: 0;
 }
