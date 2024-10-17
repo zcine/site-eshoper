@@ -93,6 +93,7 @@ header {
 
 /*.................................................*/
 /*Parte esquerda da Tela inicial*/
+
 #MenuDeOpcoes {
     display: grid;
 }
@@ -300,13 +301,13 @@ input[type="radio"]:checked+.Secao {
 /*Luana*/
 /*.................................................*/
 .imgLuana {
-    width: 100%;
+    width: 300px;
 }
 
 #pLuana{
     text-align: center;
     font-size: 16px 19.2%;
-    padding: -100px;
+    padding: 100px;
 }
 
 .pLuana{
@@ -322,8 +323,20 @@ input[type="radio"]:checked+.Secao {
 
 }
 
+.diviZao2{
+    text-align: center;
+}
+
 .diviZao2 {
     background-color: #edf1ff;
+}
+ .imgLuana2{
+    display: flex;
+    padding-left: 15%;
+ }
+
+.linha2{
+    flex-direction: row;
 }
 
 .colStayUpdated {
@@ -331,13 +344,18 @@ input[type="radio"]:checked+.Secao {
 }
 
 #diviZao3 {
-    
     text-align: center;
     background-color: #edf1ff;
 }
 
 .btn{
     background-color: #d19c97;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
 /*Bryan*/
