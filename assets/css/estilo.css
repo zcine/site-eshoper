@@ -260,16 +260,18 @@ input[type="radio"]:checked+.Secao {
 /*Parte de baixo da pagina inicial*/
 .CartoesDeBeneficio {
     display: flex;
-    cursor: pointer;
+    cursor: pointer;;
     border: #dbe0f0 solid 1px;
     font-weight: 600;
     padding: 2% 5%;
+    align-items: center;
     text-align: justify;
-    width: 15%;
+    width: 10%;
 }
-.CartoesDeBeneficio img {
-    height: 40px;
-    padding-right: 10%;
+
+.CartoesDeBeneficio img{
+    padding-right: 15%;
+    height: 40px
 }
 /*Letícia*/
 /*.................................................*/
