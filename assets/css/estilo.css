@@ -271,13 +271,13 @@ input[type="radio"]:checked+.Secao {
 /*Luana*/
 /*.................................................*/
 .imgLuana {
-    width: 100%;
+    width: 300px;
 }
 
 #pLuana{
     text-align: center;
     font-size: 16px 19.2%;
-    padding: -100px;
+    padding: 100px;
 }
 
 .pLuana{
@@ -292,17 +292,20 @@ input[type="radio"]:checked+.Secao {
     font-size: 24px 28.8px;
 
 }
-
-.diviZao2 {
-    
+.diviZao2{
+    text-align: center;
+    background-color: #edf1ff;
 }
+ .imgLuana2{
+    display: flex;
+    padding-left: 15%;
+ }
 
-.colStayUpdated {
-    
+.linha2{
+    flex-direction: row;
 }
 
 #diviZao3 {
-    
     text-align: center;
     background-color: #edf1ff;
 }
@@ -310,6 +313,18 @@ input[type="radio"]:checked+.Secao {
 .btn{
     background-color: #d19c97;
 }
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+
+
+
+
 
 /*Bryan*/
 footer {
