@@ -75,10 +75,10 @@ header {
 }
 
 #Robinson-baixo {
-    text-align: center;
-    border: solid red 2px;
-    padding-bottom: 30%;
-    margin-bottom: 30%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /*Parte de cima da pagina inicial*/
@@ -93,6 +93,7 @@ header {
 
 /*.................................................*/
 /*Parte esquerda da Tela inicial*/
+
 #MenuDeOpcoes {
     display: grid;
 }
@@ -257,11 +258,26 @@ input[type="radio"]:checked+.Secao {
     border-radius: 0;
 }
 
+/*Parte de baixo da pagina inicial*/
+.CartoesDeBeneficio {
+    display: flex;
+    cursor: pointer;;
+    border: #dbe0f0 solid 1px;
+    font-weight: 600;
+    padding: 2% 5%;
+    align-items: center;
+    text-align: justify;
+    width: 10%;
+}
+
+.CartoesDeBeneficio img{
+    padding-right: 15%;
+    height: 40px
+}
 /*Letícia*/
 /*.................................................*/
 .divPai {
     border: solid green 5px;
-    margin-top: 100%;
 }
 .imgLet {
     width: 100%;
@@ -292,8 +308,12 @@ input[type="radio"]:checked+.Secao {
     font-size: 24px 28.8px;
 
 }
+
 .diviZao2{
     text-align: center;
+}
+
+.diviZao2 {
     background-color: #edf1ff;
 }
  .imgLuana2{
@@ -303,6 +323,10 @@ input[type="radio"]:checked+.Secao {
 
 .linha2{
     flex-direction: row;
+}
+
+.colStayUpdated {
+    background-color: #edf1ff;
 }
 
 #diviZao3 {
@@ -319,12 +343,6 @@ table{
     margin: 0 auto;
     border-collapse: collapse;
 }
-
-
-
-
-
-
 
 /*Bryan*/
 footer {
@@ -377,6 +395,25 @@ footer {
     margin-left: 4%;
     margin-right: 10%;
     align-items: center;
+}
+
+#Bryan-Newsletter{
+    padding-top: 10%;
+    padding-left: 4%;
+}
+
+#Bryan-bt{
+    width: 68%;
+    margin-top: 4%;
+    background-color: #d19c97;
+}
+
+#Bryan-nome{
+    margin-bottom: 4%;
+}
+
+#Bryan-email{
+    align-content: center;
 }
 
 
