@@ -75,10 +75,9 @@ header {
 }
 
 #Robinson-baixo {
-    text-align: center;
-    border: solid red 2px;
-    padding-bottom: 30%;
-    margin-bottom: 30%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10%;
 }
 
 /*Parte de cima da pagina inicial*/
@@ -257,6 +256,21 @@ input[type="radio"]:checked+.Secao {
     border-radius: 0;
 }
 
+/*Parte de baixo da pagina inicial*/
+.CartoesDeBeneficio {
+    display: flex;
+    cursor: pointer;
+    border: #dbe0f0 solid 1px;
+    font-weight: 600;
+    padding: 2% 5%;
+    text-align: justify;
+    width: 15%;
+}
+
+.CartoesDeBeneficio img {
+    height: 40px;
+    padding-right: 10%;
+}
 /*Letícia*/
 /*.................................................*/
 .divPai {
