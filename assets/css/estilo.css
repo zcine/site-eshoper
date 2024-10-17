@@ -1,99 +1,291 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     font-family: "Poppins", sans-serif;
 }
 
-#imgLuana{
+body {
+    margin: 0;
+}
+
+/*Logo do site*/
+/*.................................................*/
+.LogoDoSite {
+    display: flex;
+    width: 100%;
+    cursor: default;
+}
+
+.TituloDaLogo {
+    font-size: 150%;
+    padding: 5%;
+    display: grid;
+}
+
+.IconeDaLogo {
+    font-size: 140%;
+    display: grid;
+    color: #d19c97;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 5%;
+    border: #edf1ff solid;
+}
+
+
+/*Robinson*/
+/*.................................................*/
+/*cabeçalho*/
+header {
+    background-color: #edf1ff;
+    margin: 0px;
+}
+
+#Cabecalho {
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Cabecalho p {
+    cursor: pointer;
+}
+
+.RedesSociais {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RedesSociais img {
+    cursor: pointer;
+    padding: 0 5%;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+/*Tela inicial*/
+#TelaDeInicio {
+    height: 600px;
+}
+
+#Robinson-cima {
+    width: 100%;
+    display: flex;
+}
+
+#Robinson-baixo {
+    border: solid red 2px;
+}
+
+/*Parte de cima da pagina inicial*/
+#Robinson-esquerda {
+    width: 30%;
+}
+
+#Robinson-direita {
+    width: 70%;
+    padding-left: 5%;
+}
+
+/*.................................................*/
+/*Parte esquerda da Tela inicial*/
+#MenuDeOpcoes {
+    display: grid;
+}
+
+.Secao {
+    padding: 5%;
+    display: grid;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.Secao:hover {
+    cursor: pointer;
+}
+
+.Opcao a {
+    border-left: #edf1ff solid 1px;
+    border-right: #edf1ff solid 1px;
+    border-bottom: #edf1ff solid 1px;
+    padding: 5%;
+    display: grid;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.Opcao a:hover {
+    cursor: default;
+    background: rgb(61, 61, 61);
+    color: #edf1ff;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked+.Secao {
+    background-color: #d19c97;
+}
+
+
+#MenuDeOpcoes input[type="radio"]+.Opcao {
+    display: none;
+}
+
+#MenuDeOpcoes input[type="radio"]:checked+label+.Opcao {
+    display: block;
+}
+
+
+#cat1:checked~#MenuDeOpcoes .Opcao:nth-of-type(1) {
+    display: block;
+}
+
+#cat2:checked~#MenuDeOpcoes .Opcao:nth-of-type(2) {
+    display: block;
+}
+
+#MenuDeOpcoes .Opcao {
+    display: none;
+}
+
+#cat2:checked~#MenuDeOpcoes .Opcao:nth-of-type(1) {
+    display: none;
+}
+
+#cat1:checked~#MenuDeOpcoes .Opcao:nth-of-type(2) {
+    display: none;
+}
+
+/*.................................................*/
+/*Parte direita da Tela inicial*/
+
+/*Barra de Pesquisa (não sei fazer)*/
+.Robinson-pesquisa {
+    border: #edf1ff;
+}
+
+/*Barra de navegação*/
+#MenuDeBusca {
+    text-decoration: none;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#MenuDeBusca a {
+    padding-right: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+#MenuDeBusca img {
+    width: 15px;
+    align-content: space-between;
+}
+
+#MenuDeBusca img:hover {
+    cursor: pointer;
+}
+
+#Robinson-busca-esquerda {
+    display: flex;
+    width: 100%;
+}
+
+#Robinson-busca-direita {
+    display: flex;
+    padding-right: 5%;
+}
+
+/*Imagem de apresentação*/
+#ImagemDeApresentacao {
+    background-image: url("/assets/img/carousel-1.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    display: grid;
+    align-items: center;
+}
+
+#GaleriaDeApresentacao {
+    padding: 10% 0;
+    color: #edf1ff;
+    padding: 0 15%;
+    margin: 15% 0;
+}
+
+#GaleriaDeApresentacao h2 {
+    justify-content: center;
+    display: grid;
+    color: #edf1ff;
+}
+
+#AlterarFoto {
+    display: grid;
+    justify-content: center;
+}
+
+#TituloDaGaleria {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+#TituloDaGaleria img {
+    height: 50px;
+    opacity: 50%;
+}
+
+#TituloDaGaleria img:hover {
+    cursor: pointer;
+}
+
+#GaleriaDeApresentacao button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+/*Letícia*/
+/*.................................................*/
+.divPai {
+    border: solid green 5px;
+}
+
+.imgLet {
+    width: 100px;
+}
+
+/*Luana*/
+/*.................................................*/
+#imgLuana {
     width: 200px;
     height: 200px;
 }
 
-header{
-    background-color: #edf1ff;
-    padding: 0px;
-    margin: 0px;
-}
-
-/*Robinson*/
-#TelaDeInicio{
-    width: 100%;
-    display: flex;
-    border: solid red 2px;
-}
-
-#Robinson-esquerda{
-    width: 30%;
-}
-#Robinson-direita{
-    border: solid red 2px;
-}
-.LogoDoSite{
-    display: flex;
-}
-.TituloDaLogo{
-    padding: 2%;
-    font-size: 32px;
-}
-.IconeDaLogo{
-    color: #d19c97;
-    padding: 2%;
-    font-size: 32px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 5%;
-    border:  #edf1ff solid ;
-}
-#MenuDeOpcoes{
-    display: grid;
-}
-.Secao{
-    padding: 10%;
-    display: grid;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-    border: #edf1ff solid 1px;
-}
-.Opcao{
-    padding: 10%;
-    display: grid;
-    font-weight: 600;
-    font-style: normal;
-    color: black;
-    text-decoration: none;
-}
-input[type="radio"] {
-    display: none;
-}
-input[type="radio"]:checked + .Secao {
-    background-color: #d19c97;
-}
-input[type="radio"]:checked ~ .Opcao {
-    display: block;
-    
-}
-
-/*Letícia*/
-.divPai{
-    border: solid green 2px;
-}
-
-/*Luana*/
-.diviZao2{
+.diviZao2 {
     border: solid black 2px;
 }
 
-.colStayUpdated{
+.colStayUpdated {
     border: solid black 2px;
 }
 
-.diviZao3{
+.diviZao3 {
     border: solid black 2px;
 }
 
 /*Bryan*/
-footer{
+footer {
     border: solid blue 2px;
 }

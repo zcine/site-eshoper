@@ -4,15 +4,26 @@
 <head>
     <title>E-shoper</title>
     <link rel="stylesheet" href="assets/css/estilo.css">
+    <Style>
+
+    </Style>
 </head>
 
 <body>
     <header>
-        <p>aaa</p>
+        <div id="Cabecalho">
+            <p>FAQs | Help | Support</p>
+            <div class="RedesSociais">
+                <img src="assets/img/facebook-logo.png" alt="">
+                <img src="assets/img/twitter.png" alt="">
+                <img src="assets/img/linkedin.png" alt="">
+                <img src="assets/img/instagram.png" alt="">
+                <img src="assets/img/youtube.png" alt="">
+            </div>
+        </div>
     </header>
-    <div id="Site">
-
-        <div id="TelaDeInicio">
+    <div id="TelaDeInicio">
+        <div id="Robinson-cima">
             <div id="Robinson-esquerda">
                 <div class="LogoDoSite">
                     <h1 class="IconeDaLogo">E</h1>
@@ -20,228 +31,187 @@
                 </div>
                 <div id="MenuDeOpcoes">
                     <input type="radio" name="category" id="cat1" checked />
-                    <label for="cat1" class="Secao">Categories</label>
-    
+                    <label for="cat1" class="Secao" style="border: none;">Categories(Click)</label>
+                    <div class="Opcao">
+                        <a href="#">Exemplo 1</a>
+                        <a href="#">Exemplo 2</a>
+                        <a href="#">Exemplo 3</a>
+                    </div>
+
                     <input type="radio" name="category" id="cat2" />
-                    <label for="cat2" class="Secao">Dresses</label>
-                    <a class="Opcao" href="#">Shirts</a>
-                    <a class="Opcao" href="#">Jeans</a>
-                    <a class="Opcao" href="#">Swimwear</a>
-                    <a class="Opcao" href="#">Sleepwear</a>
-                    <a class="Opcao" href="#">Jumpsuits</a>
-                    <a class="Opcao" href="#">Blazers</a>
-                    <a class="Opcao" href="#">Jackets</a>
-                    <a class="Opcao" href="#">Shoes</a>
+                    <label for="cat2" class="Secao" style="border: none;">Dresses(Click)</label>
+                    <div class="Opcao">
+                        <a href="#">Shirts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Swimwear</a>
+                        <a href="#">Sleepwear</a>
+                        <a href="#">Sportswear</a>
+                        <a href="#">Jumpsuits</a>
+                        <a href="#">Blazers</a>
+                        <a href="#">Jackets</a>
+                        <a href="#">Shoes</a>
+                    </div>
                 </div>
             </div>
             <div id="Robinson-direita">
-    
+                <div class="Robinson-pesquisa">
+                    <form class="search" action="/envia-dados" method="get">
+                        <input class="decoration" type="text" placeholder="Search for products">
+                        <button class="decoration" type="submit">Go</button>
+                    </form>
+                </div>
+                <nav id="MenuDeBusca">
+                    <div id="Robinson-busca-esquerda">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Shop detail</a>
+                        <a href="#">Pages<img src="assets/img/down-arrow.png" alt=""></a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div id="Robinson-busca-direita">
+                        <a href="#">Login</a>
+                        <a href="#">Register</a>
+                    </div>
+                </nav>
+                <div id="ImagemDeApresentacao">
+                    <div id="TelaEscurecimento">
+                    </div>
+                    <div id="GaleriaDeApresentacao">
+                        <h2>10% OFF YOUR FIRST ORDER</h2>
+                        <div id="AlterarFoto">
+                            <div id="TituloDaGaleria">
+                                <img src="assets/img/arrow-left.png" alt="">
+                                <h1>Fashionable Dress</h1>
+                                <img src="assets/img/right-arrow.png" alt="">
+                            </div>
+                        </div>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
             </div>
         </div>
+        <div id="Robinson-baixo">
+            Parte de baixo (Vou fazer ainda)
         </div>
-    
-        <!--Parte da LETICIA -->
-        <div class="divPai">
-            <!--Parte da ROBINSON -->
-            <div class="1linha">
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-1.jpg" alt="">
-                            <p id="">Men's dresses</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-2.jpg" alt="">
-                            <p id="">Women's dresses</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-3.jpg" alt="">
-                            <p id="">Baby's dresses</p>
-                        </td>
-                    </tr>
-    
-                </table>
-            </div>
-    
-            <div class="2linha">
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-4.jpg" alt="">
-                            <p id="">Accerssories</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-5.jpg" alt="">
-                            <p id="">Bags</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLet" src="assets/img/cat-6.jpg" alt="">
-                            <p id="">Shoes</p>
-                        </td>
-                    </tr>
-    
-                </table>
-    
-            </div>
-    
+    </div>
+    </div>
+
+    <!--Parte da LETICIA -->
+    <div class="divPai">
+        <div class="1linha">
+            <table>
+                <tr>
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-1.jpg" alt="">
+                        <p id="">Men's dresses</p>
+                    </td>
+
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-2.jpg" alt="">
+                        <p id="">Women's dresses</p>
+                    </td>
+
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-3.jpg" alt="">
+                        <p id="">Baby's dresses</p>
+                    </td>
+                </tr>
+
+            </table>
         </div>
-        <!--Parte da LUANA -->
-    
-        <!-- Trandy Products -->
-        <div class="diviZao2">
-    
-            <div class="linha1">
-                <h2>Trandy Products </h2>
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-1.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-2.jpg" alt="">
-                            <p id="pLuana">Color Stylish Shirt</p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-3.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p id=>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-4.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-                    </tr>
-    
-                </table>
-            </div>
-    
-            <div class="linha2">
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-5.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p id=>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-6.jpg" alt="">
-                            <p id="pLuana">Color Stylish Shirt</p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-7.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-8.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-                    </tr>
-    
-                </table>
-    
-            </div>
-    
+
+        <div class="2linha">
+            <table>
+                <tr>
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-4.jpg" alt="">
+                        <p id="">Accerssories</p>
+                    </td>
+
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-5.jpg" alt="">
+                        <p id="">Bags</p>
+                    </td>
+
+                    <td>
+                        <img class="imgLet" src="/assets/img/cat-6.jpg" alt="">
+                        <p id="">Shoes</p>
+                    </td>
+                </tr>
+
+            </table>
+
         </div>
-        <!-- Stay Updated -->
-        <div class="colStayUpdated">
-            <h2>Stay Updated </h2>
-            <p>Amet lorem at rebum amet dolores.Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore
-                labore.</p>
-            <p>Email Goes Here</p>
-            <div class="dotaoRosa">
-                <p>Subscribe</p>
-            </div>
-    
+
+    </div>
+    <!--Parte da LUANA -->
+
+    <!-- Trandy Products -->
+    <div class="diviZao2">
+
+        <div class="linha1">
+            <h2>Trandy Products </h2>
+            <table>
+                <tr>
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-1.jpg" alt="">
+                        <p id="pLuana">Colorful Stylish Shirt </p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-2.jpg" alt="">
+                        <p id="pLuana">Color Stylish Shirt</p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-3.jpg" alt="">
+                        <p id="pLuana">Stylish Shirt</p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+                </tr>
+            </table>
         </div>
-    
-    
-    
-        <!-- Just Arrived -->
-        <div class="diviZao3">
-    
-            <div class="linha4">
-                <h2>Trandy Products </h2>
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-1.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-2.jpg" alt="">
-                            <p id="pLuana">Color Stylish Shirt</p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-3.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-4.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-                    </tr>
-    
-                </table>
-            </div>
-    
-            <div class="linha5">
-                <table>
-                    <tr>
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-5.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-6.jpg" alt="">
-                            <p id="pLuana">Color Stylish Shirt</p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-7.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-    
-                        <td>
-                            <img id="imgLuana" src="assets/img/product-8.jpg" alt="">
-                            <p id="pLuana">Colorful Stylish Shirt </p id=>
-                            <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
-                        </td>
-                    </tr>
-    
-                </table>
-    
-            </div>
-    
+        <div class="linha2">
+            <table>
+                <tr>
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-4.jpg" alt="">
+                        <p id="pLuana">Shirt</p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-5.jpg" alt="">
+                        <p id="pLuana">Colorful Stylish Shirt</p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+
+                    <td>
+                        <img id="imgLuana" src="/assets/img/product-6.jpg" alt="">
+                        <p id="pLuana">Colorful Stylish</p>
+                        <p id="pLuana">$123.00 ̶$̶1̶2̶3̶.̶0̶0̶</p>
+                    </td>
+                </tr>
+            </table>
         </div>
-    
+    </div>
+
+    <!--Stay Updated -->
+    <div class="diviZao3">
+        <div class="row ">
+            <div class="colStayUpdated">
+                <h1>Stay Updated</h1>
+                <h2>Sign up for our Newsletter</h2>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <input type="text" class="form-control" placeholder="Enter Your Email">
+            <button class="btn">Sign Up</button>
+        </div>
+
         <!-- Bryan -->
         <footer>
             <div id="Bryan-Rodapé">
