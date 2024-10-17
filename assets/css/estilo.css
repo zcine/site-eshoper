@@ -311,6 +311,11 @@ input[type="radio"]:checked+.Secao {
     
 }
 
+.imgLuana2{
+    width: -1000px;
+    height: -1000px;
+}
+
 /*Bryan*/
 footer {
     border: solid blue 2px;
